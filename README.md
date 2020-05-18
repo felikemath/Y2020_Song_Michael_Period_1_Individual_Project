@@ -17,37 +17,37 @@ the user will be able to chose from.
 
 Game Controls:
 
-D/Right Arrow - Move Right
-A/Left Arrow - Move Left
-Space Bar/Up Arrow - jump
-Shift - Shoot
-Z - Ability 1
-X - Ability 2
+D/Right Arrow - Move Right |
+A/Left Arrow - Move Left | 
+Space Bar/Up Arrow - jump | 
+Shift - Shoot | 
+Z - Ability 1 | 
+X - Ability 2 | 
 
 Game Elements:
 Character:
-Weapon
-Abilities
-HP Bar
+Weapon | 
+Abilities | 
+HP Bar | 
 
 Map includes:
-Platforms (possibly floating or moving)
-Boxes - When broken may contain special powerups or hazardous objects
+Platforms (possibly floating or moving) | 
+Boxes - When broken may contain special powerups or hazardous objects | 
 
 Enemies:
-Different types of enemies (Small critters, Large Monsters, Huge Bosses...)
-Random Movement Path
-Bosses - defined sequence of moves/path 
-HP Bar
-Variance of Damage dealt
-Monsters may drop special loot that can help the character
+Different types of enemies (Small critters, Large Monsters, Huge Bosses...) | 
+Random Movement Path | 
+Bosses - defined sequence of moves/path | 
+HP Bar | 
+Variance of Damage dealt | 
+Monsters may drop special loot that can help the character | 
 
 Physics:
-Jumping follows the rules of gravity
-No air resistance
-No friction
-Acceleration Until Terminal Velocity
-And other usual game mechanics
+Jumping follows the rules of gravity | 
+No air resistance | 
+No friction | 
+Acceleration Until Terminal Velocity | 
+And other usual game mechanics | 
 
 How to Win:
 
