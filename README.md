@@ -63,9 +63,14 @@ Provide links to examples of your game idea.  This can be a playable online game
 
 ## Teacher Response ##
 
-Approved | Not approved
+**Approved**
 
-Comments and suggestions
+So, basically you're making a random and quirky single-screen platformer.  Here's an online I Wanna Be Boshy game I found:
+https://www.construct.net/en/free-online-games/wanna-boshy-boshy-boogaloo-3474/play
+
+For your concept demo, focus on all the major core elements in your game - which for you means having a gravity world and being able to handle object collisions without getting stuck.  (For that, one technique is to check if you're intersecting something and if you are then either go back to your previous position or back up to 1 pixel before touching the object.)  Anyway, once you get a basic platformer system working you'll enter the fun phase of actually creating levels, enemies, etc.  Finally, if you're going to go screen by screen, you'll need to think of a way of handling that easily.
+
+Start simple with just platforms, boxes, and things to avoid like spikes.  I'd hold off on the Boss idea and make some interesting/fun levels instead.  A boss would be cool but it would be better to have levels that have good gameplay and flow rather than lame levels followed by a half-finished boss that isn't interesting.
 
 ## Class Design and Brainstorm ##
 
