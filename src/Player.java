@@ -3,20 +3,20 @@ import javafx.scene.image.Image;
 import Texturepack.*;
 public class Player extends Actor {
 	private static double dx=3;
-	private static double g=-9.81/10;
+	private static double g=9.81/1000;
 	private static double dy=0;
 	
 	public Player() {
 		String path = getClass().getClassLoader().getResource("Texturepack/ball.png").toString();
 		Image img = new Image(path);
 		this.setImage(img);
-		System.out.println("hi");
+		
 		
 	}
 	
 	@Override
 	public void act() {
-		System.out.println("hi");
+		
 		// TODO Auto-generated method stub
 		System.out.println(this.getX() + " " + this.getY());
 		movement();
@@ -24,11 +24,12 @@ public class Player extends Actor {
 	
 	public void movement() {
 		//horizontal movement
+		dx = 0;
 		if (getWorld().isKeyDown(KeyCode.LEFT)) {
-			this.setX(this.getX()-dx);
+			dx = -3;
 		}
 		if (getWorld().isKeyDown(KeyCode.RIGHT)) {
-			this.setX(this.getX()+dx);
+			dx = 3;
 		}
 		
 		//Vertical Movement

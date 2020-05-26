@@ -22,7 +22,7 @@ public abstract class World extends Pane{
 				// TODO Auto-generated method stub
 				
 				for (int i = 0; i < ar.size(); i++) {
-					System.out.println("yes");
+					
 					if(ar.get(i) instanceof Actor) {
 						((Actor) ar.get(i)).act();
 					}

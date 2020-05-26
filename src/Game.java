@@ -31,6 +31,7 @@ public class Game extends Application{
 		// TODO Auto-generated method stub
 		stage.setTitle("Boshy");
 		window = stage;
+		window.setScene(channel1);
 		stage.setWidth(800);
 		stage.setHeight(600);
 		//Game stage
@@ -40,13 +41,15 @@ public class Game extends Application{
 		Player boshy = new Player();
 		
 		rootNode1.setCenter(world);
-		boshy.setX(300);
-		boshy.setY(300);
+		boshy.setX(100);
+		boshy.setY(100);
 		
 		Platform platform1 = new Platform();
 		platform1.setX(100);
 		platform1.setY(300);
-		
+		world.add(boshy);
+		world.add(platform1);
+		world.start();
 		world.setOnKeyPressed(new EventHandler<KeyEvent>() {
 
 			@Override
