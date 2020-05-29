@@ -31,8 +31,8 @@ public class Game extends Application{
 		// TODO Auto-generated method stub
 		stage.setTitle("Boshy");
 		window = stage;
-		window.setScene(channel1);
-		stage.setWidth(800);
+		
+		stage.setWidth(1000);
 		stage.setHeight(600);
 		//Game stage
 		BorderPane rootNode1 = new BorderPane();
@@ -41,15 +41,18 @@ public class Game extends Application{
 		Player boshy = new Player();
 		
 		rootNode1.setCenter(world);
-		boshy.setX(100);
-		boshy.setY(100);
+		boshy.setX(400);
+		boshy.setY(200);
 		
 		Platform platform1 = new Platform();
-		platform1.setX(100);
+		platform1.setX(0);
 		platform1.setY(300);
+		
+		Platform leftFloat = new Platform();
 		world.add(boshy);
 		world.add(platform1);
 		world.start();
+		window.setScene(channel1);
 		world.setOnKeyPressed(new EventHandler<KeyEvent>() {
 
 			@Override
