@@ -66,6 +66,10 @@ public abstract class World extends Pane{
 		set.add(k);
 	}
 	
+	public void clearKeyCode() {
+		this.set.clear();
+	}
+	
 	public void removeKeyCode(KeyCode k) {
 		set.remove(k);
 	}
